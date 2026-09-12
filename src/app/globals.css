@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --color-cream: #f8f4ec;
+  --color-cream-dark: #efe7d6;
+  --color-navy: #10192e;
+  --color-navy-light: #1c2a48;
+  --color-charcoal: #23262b;
+  --color-brass: #ab8a54;
+  --color-brass-light: #c7a86c;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-dark: var(--color-cream-dark);
+  --color-navy: var(--color-navy);
+  --color-navy-light: var(--color-navy-light);
+  --color-charcoal: var(--color-charcoal);
+  --color-brass: var(--color-brass);
+  --color-brass-light: var(--color-brass-light);
+  --font-serif: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}

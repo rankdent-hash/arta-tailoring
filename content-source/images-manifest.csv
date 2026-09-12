@@ -1,0 +1,23 @@
+page,image_url,alt_text,context,likely_full_res_url_guess
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-bespoke-tailoring-1.png,ARTA BESPOKE TAILORING,Main logo/header image (also reused in footer + about + services + alterations + bespoke + gallery + offers + sale + opening-hours),
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-bespoke-tailoring-logo.png,ARTA BESPOKE TAILORING,Secondary logo used in nav area (also reused site-wide),
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/05/IMG_0061.png,,Hero/welcome image section,
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/cat-thumb1-150x150.jpg,,Service tile thumbnail: Tailored Suits,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/cat-thumb1.jpg
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/03/Attachment-1-150x150.jpeg,,Service tile thumbnail: Tailored Shirts,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/03/Attachment-1.jpeg
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/E_SRO_B-2-1-150x150.jpg,,Service tile thumbnail: Ladies Bespoke,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/E_SRO_B-2-1.jpg
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/bespoke_suit-2.jpeg,,Bespoke service section image,
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-bespoke-tailoring-london-Copy-555x740.jpg,Ermenegildo Zegna Hosts 500 Hands Event With Jason Taylor And Bart Scott,'How we think custom should be' section,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-bespoke-tailoring-london-Copy.jpg
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/photo.png,The work was flawless and the dress fitted great.,Testimonial headshot (Olivia Newman),
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-tailoring-london.jpg,Smiling man in suit looking at the mirror while being in the shop,Testimonial/shop section image,
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/acorn-fabrics.jpg,Logo 1,Partner/fabric-supplier logo,
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/97ed43d29381198c93bfbadb177acb81_src.png,Logo 2,Partner logo,
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/pic_63.png,Logo 3,Partner logo,
+home,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/RC.GH1_.jpg,RC.G&H1,Special offer section image,
+alterations,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/04/7376a3a693ff4ad2d25bafcbc146dd19-1-750x318.jpg,,Service showcase image,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/04/7376a3a693ff4ad2d25bafcbc146dd19-1.jpg
+alterations,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/03/wedding-sleeve-length-Small.jpeg,,Wedding-dress sleeve alteration example,
+bespoke-tailoring,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/03/7592253328_IMG_0426-300x200.jpg,,Tailoring work / garment example,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/03/7592253328_IMG_0426.jpg
+bespoke-tailoring,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/04/static1.squarespace-1-300x173.jpg,,'How it works' process illustration (filename suggests originally sourced from a Squarespace site),https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/04/static1.squarespace-1.jpg
+gallery,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/04/IMG_0338-750x750.jpg,,Gallery photo,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/04/IMG_0338.jpg
+gallery,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-bespoke-tailoring-750x750.jpg,,Gallery photo,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/arta-bespoke-tailoring.jpg
+gallery,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/cat-thumb2-300x300.jpg,,Gallery thumbnail,https://i2.wp.com/artatailoring.co.uk/wp-content/uploads/2018/02/cat-thumb2.jpg
+contact,https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79468.27156364683!2d-0.20815704181145075!3d51.506180145185425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d775a2762f%3A0x197320c96607afa1!2sAbs+Bespoke+Tailoring!5e0!3m2!1sen!2suk!4v1518638803051,,"Google Maps iframe embed (not a static image - re-embed directly in the redesign), business name shown as 'Abs Bespoke Tailoring'",
