@@ -13,7 +13,7 @@ export function MobileCallBar() {
         href="/contact"
         className="flex flex-1 items-center justify-center gap-2 bg-navy py-3 text-sm font-semibold text-cream"
       >
-        Book a Consultation
+        Contact Us
       </a>
     </div>
   );

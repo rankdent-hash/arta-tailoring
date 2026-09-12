@@ -10,6 +10,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const headerNav = primaryNav.filter((item) => item.href !== "/contact");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -41,7 +42,7 @@ export function Header() {
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
-          {primaryNav.map((item) => {
+          {headerNav.map((item) => {
             const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
             return (
               <Link
@@ -70,7 +71,7 @@ export function Header() {
             href="/contact"
             className="inline-flex items-center justify-center rounded-sm bg-navy px-5 py-2.5 text-sm font-semibold text-cream transition-all duration-200 hover:-translate-y-0.5 hover:bg-navy-light hover:shadow-md"
           >
-            Book a Consultation
+            Contact Us
           </Link>
         </div>
 
@@ -100,7 +101,7 @@ export function Header() {
       >
         <div className="min-h-0">
           <nav className="mx-auto flex w-full max-w-6xl flex-col px-6 py-4 sm:px-8">
-            {primaryNav.map((item) => {
+            {headerNav.map((item) => {
               const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
               return (
                 <Link
@@ -120,7 +121,7 @@ export function Header() {
               onClick={() => setOpen(false)}
               className="mt-4 inline-flex items-center justify-center rounded-sm bg-navy px-5 py-3 text-sm font-semibold text-cream"
             >
-              Book a Consultation
+              Contact Us
             </Link>
           </nav>
         </div>
