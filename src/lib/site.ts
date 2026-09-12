@@ -219,9 +219,12 @@ export const alterationCategories = [
 export const galleryImages = [
   { image: "/images/hero-shears-fabric.jpg", label: "Cloth & shears", wide: true },
   { image: "/images/lapel-basting-closeup.jpg", label: "Hand-basted lapel, in progress" },
+  { image: "/images/gallery-check-blazer.jpg", label: "Glen check jacket, finished" },
   { image: "/images/pattern-cutting.jpg", label: "Pattern cutting" },
   { image: "/images/tile-suits.jpg", label: "Tailored suit" },
+  { image: "/images/gallery-wedding-suit.jpg", label: "Wedding suit, finishing touches" },
   { image: "/images/tile-shirts.jpg", label: "Tailored shirt" },
+  { image: "/images/gallery-shirt-tie.jpg", label: "Shirt & tie, styled" },
   { image: "/images/tile-ladies.jpg", label: "Ladies bespoke jacket" },
   { image: "/images/customer-in-suit.jpg", label: "Finished fitting" },
   { image: "/images/studio-shopfront.png", label: "Studio, Crown Passage", wide: true },
