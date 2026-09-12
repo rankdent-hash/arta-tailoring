@@ -17,7 +17,7 @@ export function ServiceTiles() {
             <Link
               key={tile.title}
               href={tile.href}
-              className="group block overflow-hidden rounded-sm border border-navy/10 bg-white transition-shadow hover:shadow-lg"
+              className="group block overflow-hidden rounded-sm border border-navy/10 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-brass/40 hover:shadow-xl"
             >
               <div className="relative h-48 w-full overflow-hidden bg-navy">
                 <Image
@@ -33,8 +33,11 @@ export function ServiceTiles() {
                 <p className="mt-2 text-sm leading-relaxed text-charcoal/70">
                   {tile.description}
                 </p>
-                <span className="mt-4 inline-block text-sm font-semibold text-brass group-hover:underline">
-                  Learn more →
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brass">
+                  Learn more
+                  <span className="transition-transform duration-200 group-hover:translate-x-1">
+                    →
+                  </span>
                 </span>
               </div>
             </Link>

@@ -12,7 +12,7 @@ export function Container({
 }
 
 export function Eyebrow({ children }: { children: ReactNode }) {
-  return <p className="eyebrow mb-3 text-brass">{children}</p>;
+  return <p className="eyebrow eyebrow-rule mb-3 text-brass">{children}</p>;
 }
 
 export function SectionHeading({
@@ -49,10 +49,10 @@ export function Button({
   className?: string;
 }) {
   const base =
-    "inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 text-sm font-semibold tracking-wide transition-colors duration-200";
+    "inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 text-sm font-semibold tracking-wide transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0";
   const styles = {
-    primary: "bg-brass text-navy hover:bg-brass-light",
-    secondary: "bg-navy text-cream hover:bg-navy-light",
+    primary: "bg-brass text-navy shadow-sm hover:bg-brass-light hover:shadow-md",
+    secondary: "bg-navy text-cream shadow-sm hover:bg-navy-light hover:shadow-md",
     ghost: "border border-current text-current hover:bg-black/5",
   } as const;
 

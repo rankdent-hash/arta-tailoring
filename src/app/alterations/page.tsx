@@ -61,7 +61,10 @@ export default function AlterationsPage() {
           <SectionHeading eyebrow="Full Price List" title="What we alter, by garment" />
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {alterationCategories.map((category) => (
-              <div key={category.title} className="rounded-sm border border-navy/10 bg-white p-6">
+              <div
+                key={category.title}
+                className="rounded-sm border border-navy/10 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-brass/40 hover:shadow-lg"
+              >
                 <h3 className="font-serif text-lg text-navy">{category.title}</h3>
                 <ul className="mt-4 space-y-2 text-sm text-charcoal/75">
                   {category.items.map((item) => (

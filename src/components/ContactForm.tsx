@@ -39,7 +39,7 @@ export function ContactForm() {
           name="name"
           type="text"
           required
-          className="mt-1 w-full rounded-sm border border-navy/20 bg-white px-3 py-2 text-sm focus:border-brass focus:outline-none"
+          className="mt-1 w-full rounded-sm border border-navy/20 bg-white px-3 py-2 text-sm transition-shadow focus:border-brass focus:outline-none focus:ring-2 focus:ring-brass/25"
         />
       </div>
       <div>
@@ -50,7 +50,7 @@ export function ContactForm() {
           id="phone"
           name="phone"
           type="tel"
-          className="mt-1 w-full rounded-sm border border-navy/20 bg-white px-3 py-2 text-sm focus:border-brass focus:outline-none"
+          className="mt-1 w-full rounded-sm border border-navy/20 bg-white px-3 py-2 text-sm transition-shadow focus:border-brass focus:outline-none focus:ring-2 focus:ring-brass/25"
         />
       </div>
       <fieldset>
@@ -63,6 +63,7 @@ export function ContactForm() {
                 name="contactMethod"
                 value={option}
                 defaultChecked={option === "Either"}
+                className="accent-brass"
               />
               {option}
             </label>
@@ -78,17 +79,17 @@ export function ContactForm() {
           name="message"
           rows={4}
           required
-          className="mt-1 w-full rounded-sm border border-navy/20 bg-white px-3 py-2 text-sm focus:border-brass focus:outline-none"
+          className="mt-1 w-full rounded-sm border border-navy/20 bg-white px-3 py-2 text-sm transition-shadow focus:border-brass focus:outline-none focus:ring-2 focus:ring-brass/25"
         />
       </div>
       <button
         type="submit"
-        className="w-full rounded-sm bg-navy px-6 py-3 text-sm font-semibold text-cream transition-colors hover:bg-navy-light"
+        className="w-full rounded-sm bg-navy px-6 py-3 text-sm font-semibold text-cream transition-all duration-200 hover:-translate-y-0.5 hover:bg-navy-light hover:shadow-md"
       >
         Send Request
       </button>
       {sent ? (
-        <p className="text-sm text-brass">
+        <p role="status" className="text-sm text-brass">
           Your email app should now be open with this message ready to send. If it didn&apos;t
           open, email us directly at {business.email}.
         </p>
