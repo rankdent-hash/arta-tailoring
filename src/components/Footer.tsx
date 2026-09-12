@@ -7,12 +7,12 @@ export function Footer() {
     <footer className="bg-navy text-cream">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-16 sm:px-8 md:grid-cols-4">
         <div className="md:col-span-2">
-          <div className="relative h-14 w-40">
+          <div className="relative h-[70px] w-[200px]">
             <Image
               src="/images/logo-gold.webp"
               alt={business.name}
               fill
-              sizes="160px"
+              sizes="200px"
               className="object-contain object-left"
             />
           </div>

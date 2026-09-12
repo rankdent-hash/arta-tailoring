@@ -27,14 +27,14 @@ export function Header() {
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 sm:px-8">
         <Link
           href="/"
-          className="relative block h-12 w-36 shrink-0 sm:h-14 sm:w-44"
+          className="relative block h-[60px] w-[180px] shrink-0 sm:h-[70px] sm:w-[220px]"
           onClick={() => setOpen(false)}
         >
           <Image
             src="/images/logo-navy.webp"
             alt={business.name}
             fill
-            sizes="176px"
+            sizes="220px"
             className="object-contain object-left"
             priority
           />

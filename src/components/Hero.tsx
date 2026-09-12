@@ -5,14 +5,14 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-navy text-cream">
       <Image
-        src="/images/hero-shears-fabric.jpg"
-        alt="Tailor's shears resting on folded suiting cloth"
+        src="/images/studio-shopfront.png"
+        alt="The Arta Bespoke Tailoring shopfront on Crown Passage, St James's"
         fill
         priority
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/75 to-navy/40" />
+      <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/80 to-navy/50" />
       <div className="relative mx-auto flex min-h-[78vh] w-full max-w-6xl flex-col justify-center px-6 py-24 sm:px-8">
         <p className="eyebrow text-brass-light">St James&apos;s, London</p>
         <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.1] sm:text-6xl">
